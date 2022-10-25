@@ -10,4 +10,7 @@ rebuild the application
 checked the aplication 
 10;47
 review the pakages in the dependencies , pakages  folder 
-greating a git repos. 
+creating a git repos. 
+
+2022-10-25
+"" options => options.SignIn.RequireConfirmedAccount = true "" commented this is the startup page at line 33  
