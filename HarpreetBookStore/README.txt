@@ -14,3 +14,5 @@ creating a git repos.
 
 2022-10-25
 "" options => options.SignIn.RequireConfirmedAccount = true "" commented this is the startup page at line 33  
+
+reviews the github repos annd created a README.md file with all the starting description of the project 
