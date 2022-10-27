@@ -20,3 +20,6 @@ reviews the github repos annd created a README.md file with all the starting des
 2022-10-27
 clone the repositary 
 rebuild the application 
+10;35
+moving to debugging 
+by lookingat slides added  two beak points in the homecontroller.cs page in the index and privacy line .

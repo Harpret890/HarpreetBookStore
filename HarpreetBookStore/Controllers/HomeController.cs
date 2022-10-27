@@ -18,12 +18,12 @@ namespace HarpreetBookStore.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Index() // added break points for debugging 
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Privacy() //added break points for debugging 
         {
             return View();
         }
