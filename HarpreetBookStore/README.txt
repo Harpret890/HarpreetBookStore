@@ -22,4 +22,15 @@ clone the repositary
 rebuild the application 
 10;35
 moving to debugging 
-by lookingat slides added  two beak points in the homecontroller.cs page in the index and privacy line .
+by looking at slides added  two break points in the homecontroller.cs page in the index and privacy line .
+
+10;50
+replaced the bootstarp file with the downlaoded version . 
+made changes in the _layout.cshtml 
+ changed the last bootstarp.min.css to bootstarp.cs
+  changed the navbar-light to navbar-dark and bg-white to bg-primary
+  at line 24 and 27 removed text dark 
+  at line 40 in the layout.cshtml file  added text-white-50 bg-primary
+   @await RenderSectionAsync("Scripts", required: false) added this line in the  layout.cshtml
+made changes in the loginPartial.cshtml file . 
+removed the text dark 
