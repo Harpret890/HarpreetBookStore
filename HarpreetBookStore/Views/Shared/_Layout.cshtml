@@ -6,6 +6,10 @@
     <title>@ViewData["Title"] - HarpreetBookStore</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" /><!-- changed the last bootstarp.min.css to bootstarp.css-->
     <link rel="stylesheet" href="~/css/site.css" />
+    <!--adding the third party soures -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css"/>
 </head>
 <body>
     <header>
@@ -46,8 +50,16 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!--Additional scripts to use -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css"></script>
+    <script src="https://kit.fontawesome.com/e19c476714.js"></script>
+
+
     @await RenderSectionAsync("Scripts", required: false)
     <!-- added this line -->
-        @RenderSection("Scripts", required: false)
-    </body>
+    @RenderSection("Scripts", required: false)
+</body>
     </html>
