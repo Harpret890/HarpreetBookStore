@@ -34,3 +34,10 @@ made changes in the _layout.cshtml
    @await RenderSectionAsync("Scripts", required: false) added this line in the  layout.cshtml
 made changes in the loginPartial.cshtml file . 
 removed the text dark 
+
+31/10/2021
+just had to work on the esign boot strap template wasnt working earlier 
+and now it does 
+i have changed the boot strap file again and all other changes in the layout were made earlier 
+and it finally worked 
+7:19 
