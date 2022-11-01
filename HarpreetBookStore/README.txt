@@ -69,7 +69,12 @@ completed the dropdown , ran the application and checked the working dropdown me
 10:42 am 
 moving to add Projects and Modify 
 
-1) creating 3 .Net Core class library 
+1) creating 3 .Net Core class library (uses 3.1 LTS version )
 	* HarpreetsBooks.DataAccess
 	* HarpreetsBooks.Models
 	* HarpreetsBooks.Utility
+
+2) copied the data folder and pasted in the .DataAccess project and just renamed the old data folder to data_bk 
+
+3) deleted the migration folder in the .DataAccess project and added all the pakages required 
+you can check those under the dependencies folder 
