@@ -86,3 +86,4 @@ moving on the models to HarpreetsBooks.Models file and renamed the models_bk fil
 added the project reference for the .DataAccess and .Models
 11:27
 renamed the models folder to view models 
+changed yhe ErrorViewModels.cs namespace to .Models.ViewModels
