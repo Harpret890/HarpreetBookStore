@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HarpreestBooks.DataAccess.Data       // modified the name space 
+namespace HarpreetsBooks.DataAccess.Data       // modified the name space 
 {
     public class ApplicationDbContext : IdentityDbContext
     {

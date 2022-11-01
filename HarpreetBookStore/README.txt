@@ -78,3 +78,4 @@ moving to add Projects and Modify
 
 3) deleted the migration folder in the .DataAccess project and added all the pakages required 
 you can check those under the dependencies folder 
+4) modified the name space for the ApplicationdbContext.cs file under the .DataAccess project 
