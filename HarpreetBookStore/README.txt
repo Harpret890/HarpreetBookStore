@@ -83,3 +83,6 @@ you can check those under the dependencies folder
 
 11:11 am 
 moving on the models to HarpreetsBooks.Models file and renamed the models_bk file for the original 
+added the project reference for the .DataAccess and .Models
+11:27
+renamed the models folder to view models 
