@@ -80,3 +80,6 @@ moving to add Projects and Modify
 you can check those under the dependencies folder 
 4) modified the name space for the ApplicationdbContext.cs file under the .DataAccess project 
 5) deleted all the class1.cs files for all the new projects that was new created 
+
+11:11 am 
+moving on the models to HarpreetsBooks.Models file and renamed the models_bk file for the original 
