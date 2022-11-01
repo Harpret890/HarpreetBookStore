@@ -1,4 +1,4 @@
-﻿10;42
+﻿10;42 2022-10-25
 CREATED A NEW WEBAPPLICTION MVC core .
 set to indvidual accounts
 https config enabled the runtime for razor . 
@@ -59,3 +59,9 @@ Css filess
 
 7:59 
 added the nav drp down 
+
+2022/11/01
+9:51 am 
+still working on dropdown menu as its not working . 
+
+moving on to add prjects and modify 
