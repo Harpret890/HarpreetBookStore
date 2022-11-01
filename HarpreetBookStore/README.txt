@@ -65,3 +65,11 @@ added the nav drp down
 still working on dropdown menu as its not working . 
 10:41 am
 completed the dropdown , ran the application and checked the working dropdown menu 
+
+10:42 am 
+moving to add Projects and Modify 
+
+1) creating 3 .Net Core class library 
+	* HarpreetsBooks.DataAccess
+	* HarpreetsBooks.Models
+	* HarpreetsBooks.Utility
