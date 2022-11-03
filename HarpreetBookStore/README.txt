@@ -104,3 +104,5 @@ and deleted the Data and Models folder in it
 moved the view>home an dmodifed the HomeController namespace
 8:46 
 modified the _viewStart.cshtml to reflect the new new path 
+11/03/2022
+made changes in th startup file , removed the folder for shaed from the areas and replaced it to the views in the main folder 
