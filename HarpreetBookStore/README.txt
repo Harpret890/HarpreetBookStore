@@ -94,3 +94,5 @@ starting the application
 added a classs in the Utility folder named SD.cs
 and edited the properties of the class 
 added the refereneces for the Utility folder 
+8:18
+modified the pattern with the {area=Customer} inthe startup page at line 65
