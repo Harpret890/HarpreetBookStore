@@ -99,3 +99,5 @@ modified the pattern with the {area=Customer} inthe startup page at line 65
 8:23
 moved the HomeController.cs to the Area>Customer>Controllers folder
 and deleted the Data and Models folder in it 
+8:30
+[Area("Customer")]  // specified that the controller is in the Customer Area at lin 12 

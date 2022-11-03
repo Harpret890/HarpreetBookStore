@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace HarpreetBookStore.Controllers
 {
+    [Area("Customer")]  // specified that the controller is in the Customer Area 
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
