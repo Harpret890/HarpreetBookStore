@@ -96,3 +96,6 @@ and edited the properties of the class
 added the refereneces for the Utility folder 
 8:18
 modified the pattern with the {area=Customer} inthe startup page at line 65
+8:23
+moved the HomeController.cs to the Area>Customer>Controllers folder
+and deleted the Data and Models folder in it 
