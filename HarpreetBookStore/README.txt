@@ -87,3 +87,10 @@ added the project reference for the .DataAccess and .Models
 11:27
 renamed the models folder to view models 
 changed yhe ErrorViewModels.cs namespace to .Models.ViewModels
+
+2022-11-02
+starting the application 
+8:01
+added a classs in the Utility folder named SD.cs
+and edited the properties of the class 
+added the refereneces for the Utility folder 
