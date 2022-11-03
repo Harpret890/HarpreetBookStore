@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HarpreetBookStore.Controllers
+namespace HarpreetBookStore.Area.Customer.Controllers // changed the namespace Area.Customer
 {
     [Area("Customer")]  // specified that the controller is in the Customer Area 
     public class HomeController : Controller

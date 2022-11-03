@@ -101,3 +101,6 @@ moved the HomeController.cs to the Area>Customer>Controllers folder
 and deleted the Data and Models folder in it 
 8:30
 [Area("Customer")]  // specified that the controller is in the Customer Area at lin 12 
+moved the view>home an dmodifed the HomeController namespace
+8:46 
+modified the _viewStart.cshtml to reflect the new new path 
