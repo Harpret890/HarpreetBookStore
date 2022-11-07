@@ -106,3 +106,10 @@ moved the view>home an dmodifed the HomeController namespace
 modified the _viewStart.cshtml to reflect the new new path 
 11/03/2022
 made changes in th startup file , removed the folder for shaed from the areas and replaced it to the views in the main folder 
+
+2022-11-17 2:15pm 
+replacing my all the files through github because all the older file were completed till the bootstrap theme and i have al ready completed the part for the project modification
+
+2:16 
+rebuild the solution and ran the application 
+everything looks good 
