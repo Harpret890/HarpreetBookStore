@@ -119,3 +119,17 @@ created an new area named Amin in the area folder
 2:19
 added the proper view files and deleted the data and model folder in it .
 and renamed the original controllers folder to controller_bk 
+
+2:22
+moving on to create the DB 
+build the solution to confirm their is no errors 
+changed the name of the database connection from aspnet-HarpreetBookStore-17B0B5F1-26DE-4B88-A694-12367526A027 to HarpreetBookStore
+
+moving on to add migration .dataAccess ( problem)
+add-migration addDefaultIdentityMigration
+ gives us an error tp specify the context 
+
+ add-migration AddDefaultIdentityMigration -Context ApplicationDbContext
+ error : - More than one DbContext named 'ApplicationDbContext' was found. Specify which one to use by providing its fully qualified name using its exact case.
+
+ solution : -
