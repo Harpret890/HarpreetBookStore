@@ -116,3 +116,6 @@ everything looks good
 
 2:17 
 created an new area named Amin in the area folder 
+2:19
+added the proper view files and deleted the data and model folder in it .
+and renamed the original controllers folder to controller_bk 
