@@ -137,3 +137,10 @@ add-migration addDefaultIdentityMigration
 
  10:24
  changing the original files applicationDbContext file to to applicationDbContext just to retry the migration part for .dataaccess file 
+ still have to provide with the name 
+
+ 2022-11-08 10:31 
+ still didnt get the migration 
+
+ finally got the migration done , the errors were after deleting the original fle of applicationDbReference , we had to change the file reference as well 
+ the reference changes where made in the create identiy schema , startup , and applicationdbcontextmodelsnapshot 
