@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace HarpreetsBooks.Models
 {
-    class Category          // ADDED these new fields 
+     public class Category          // ADDED these new fields 
     {
         [Key]
         public int Id { get; set; }
