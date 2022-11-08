@@ -133,3 +133,7 @@ add-migration addDefaultIdentityMigration
  error : - More than one DbContext named 'ApplicationDbContext' was found. Specify which one to use by providing its fully qualified name using its exact case.
 
  solution : -
+
+
+ 10:24
+ changing the original files applicationDbContext file to to applicationDbContext just to retry the migration part for .dataaccess file 
