@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using HarpreetsBooks.Models;
 
 namespace HarpreetsBooks.DataAccess.Data       // modified the name space 
 {
@@ -12,5 +13,6 @@ namespace HarpreetsBooks.DataAccess.Data       // modified the name space
             : base(options)
         {
         }
+        public DbSet<Category> Categories { get; set; }
     }
 }
