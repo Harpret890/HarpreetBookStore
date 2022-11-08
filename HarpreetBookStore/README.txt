@@ -148,3 +148,6 @@ add-migration addDefaultIdentityMigration
  the file name for the new migration is 20221108153556_AddDefaultIdentityMigration 
 
  updated the database and build succeeded 
+ 
+ 10:41
+In the .Models project created a new Category.cs file and added all the new changes in it 
