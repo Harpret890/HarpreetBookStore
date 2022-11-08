@@ -87,3 +87,49 @@ added the project reference for the .DataAccess and .Models
 11:27
 renamed the models folder to view models 
 changed yhe ErrorViewModels.cs namespace to .Models.ViewModels
+
+2022-11-02
+starting the application 
+8:01
+added a classs in the Utility folder named SD.cs
+and edited the properties of the class 
+added the refereneces for the Utility folder 
+8:18
+modified the pattern with the {area=Customer} inthe startup page at line 65
+8:23
+moved the HomeController.cs to the Area>Customer>Controllers folder
+and deleted the Data and Models folder in it 
+8:30
+[Area("Customer")]  // specified that the controller is in the Customer Area at lin 12 
+moved the view>home an dmodifed the HomeController namespace
+8:46 
+modified the _viewStart.cshtml to reflect the new new path 
+11/03/2022
+made changes in th startup file , removed the folder for shaed from the areas and replaced it to the views in the main folder 
+
+2022-11-17 2:15pm 
+replacing my all the files through github because all the older file were completed till the bootstrap theme and i have al ready completed the part for the project modification
+
+2:16 
+rebuild the solution and ran the application 
+everything looks good 
+
+2:17 
+created an new area named Amin in the area folder 
+2:19
+added the proper view files and deleted the data and model folder in it .
+and renamed the original controllers folder to controller_bk 
+
+2:22
+moving on to create the DB 
+build the solution to confirm their is no errors 
+changed the name of the database connection from aspnet-HarpreetBookStore-17B0B5F1-26DE-4B88-A694-12367526A027 to HarpreetBookStore
+
+moving on to add migration .dataAccess ( problem)
+add-migration addDefaultIdentityMigration
+ gives us an error tp specify the context 
+
+ add-migration AddDefaultIdentityMigration -Context ApplicationDbContext
+ error : - More than one DbContext named 'ApplicationDbContext' was found. Specify which one to use by providing its fully qualified name using its exact case.
+
+ solution : -
