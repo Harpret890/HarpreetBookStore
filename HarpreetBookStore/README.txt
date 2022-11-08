@@ -144,3 +144,7 @@ add-migration addDefaultIdentityMigration
 
  finally got the migration done , the errors were after deleting the original fle of applicationDbReference , we had to change the file reference as well 
  the reference changes where made in the create identiy schema , startup , and applicationdbcontextmodelsnapshot 
+
+ the file name for the new migration is 20221108153556_AddDefaultIdentityMigration 
+
+ updated the database and build succeeded 
