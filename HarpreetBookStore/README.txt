@@ -151,3 +151,6 @@ add-migration addDefaultIdentityMigration
  
  10:41
 In the .Models project created a new Category.cs file and added all the new changes in it 
+
+10:48 
+added the migration in the .DataAccess folder for the category class 
