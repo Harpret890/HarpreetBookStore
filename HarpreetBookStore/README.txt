@@ -159,3 +159,15 @@ added the migration in the .DataAccess folder for the category class
 added all the changes in the ApplicationDbContext of the using statement and added the field for the Categories
 
 2022-11-10
+removed the errors that was poping	related to refences 
+soluton:- added project refernece fr the dataacess and model and it workd 
+
+rebild the application 
+and ran the application 
+
+10:49 
+added the new migration 
+got an error of duplication 
+The name 'AddCategoryToDb' is used by an existing migration
+10:53
+deleted the old migration for AddCategoryToDb and re-did it and it has been updated with the new column of categories and updated the database 
