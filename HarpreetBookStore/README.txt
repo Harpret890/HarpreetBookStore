@@ -189,3 +189,7 @@ updated and modified the content for the both the Category Repository
 
 2:08
 updated the CategoryRepository.cs to implement the insterface 
+
+2:56 
+added an new SP_Call.cs in the IRepository folder and added all the content in it 
+and added the new class in the ISP-Call in the repository folder 
