@@ -186,3 +186,6 @@ added the individual repos for the category
 
 1:58
 updated and modified the content for the both the Category Repository 
+
+2:08
+updated the CategoryRepository.cs to implement the insterface 
