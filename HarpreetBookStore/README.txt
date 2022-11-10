@@ -183,3 +183,6 @@ also added comments
 11:32
 added all the modification in the Repository.cs
 added the individual repos for the category 
+
+1:58
+updated and modified the content for the both the Category Repository 
