@@ -158,3 +158,4 @@ added the migration in the .DataAccess folder for the category class
 11:01
 added all the changes in the ApplicationDbContext of the using statement and added the field for the Categories
 
+2022-11-10
