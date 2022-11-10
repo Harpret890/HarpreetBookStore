@@ -171,3 +171,11 @@ got an error of duplication
 The name 'AddCategoryToDb' is used by an existing migration
 10:53
 deleted the old migration for AddCategoryToDb and re-did it and it has been updated with the new column of categories and updated the database 
+
+11:12
+added an new folder in the .DataAccess folder name Repository 
+created an new folder in it named IRepository 
+added an new interface type item named IRepository 
+
+added all the required changes in it 
+also added comments 
