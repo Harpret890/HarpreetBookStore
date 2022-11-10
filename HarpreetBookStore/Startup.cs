@@ -1,4 +1,4 @@
-using HarpreetBookStore.Data;
+using HarpreetsBooks.DataAccess.Data; // added the reference 
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -60,9 +60,13 @@ namespace HarpreetBookStore
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapAreaControllerRoute(
+                    name: "Area",   //created a new endpoint for area
+                    areaName:"Customer",
+                    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");// modified the pattern with the {area=Customer}
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{id?}"); // modified the pattern with the {area=Customer}
                 endpoints.MapRazorPages();
             });
         }
