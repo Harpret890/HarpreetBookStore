@@ -199,3 +199,9 @@ updated all the changed in  the SP_Call file
 
 4:07PM 
 Added an new interface named IUnitOfWork in the IRepository folder 
+
+4:14PM 
+created a new class named UnitOfWork in the Repository folder and added all the content 
+
+4:19pm 
+made changes in the UnitOfWork 
