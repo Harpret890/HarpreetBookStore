@@ -5,6 +5,8 @@ using HarpreetsBooks.DataAccess.Repository.IRepository;
 using HarpreetsBooks.DataAccess.Data;
 using Dapper;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Data.SqlClient;
+using System.Linq;
 
 namespace HarpreetsBooks.DataAccess.Repository
 {
@@ -59,17 +61,27 @@ namespace HarpreetsBooks.DataAccess.Repository
                     return new Tuple<IEnumerable<T1>, IEnumerable<T2>>(item1, item2);
                 }
             }
-            return new Tuple<IEnumerable<T1>, IEnumerable<T2>>(item1, item2);
+            return new Tuple<IEnumerable<T1>, IEnumerable<T2>>(new List<T1>(), new List<T2>()); ;
         }
 
-        public T OneRecord<T>(string procedurename, DynamicParameters Param = null)
+        public T OneRecord<T>(string procedureName, DynamicParameters param = null)
         {
-            throw new NotImplementedException();
+            using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
+            {
+                sqlCon.Open();
+                CategoryRepository value = (CategoryRepository)sqlCon.Query<T>(procedureName, param, commandType: System.Data.CommandType.StoredProcedure);
+                return (T)Convert.ChangeType(value.GetFirstOrDefault(), typeof(T));
+            }
         }
 
-        public T Single<T>(string procedurename, DynamicParameters param = null)
+
+        public T Single<T>(string procedureName, DynamicParameters param = null)
         {
-            throw new NotImplementedException();
+            using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
+            {
+                sqlCon.Open();
+                return (T)Convert.ChangeType(sqlCon.ExecuteScalar<T>(procedureName, param, commandType: System.Data.CommandType.StoredProcedure), typeof(T)); ;
+            }
         }
     }
 
