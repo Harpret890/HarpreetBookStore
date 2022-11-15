@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using HarpreetsBooks.DataAccess.Repository;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +26,9 @@ namespace HarpreetBookStore.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var allObj = _unitOfWork.Category.
+            var allObj = _unitOfWork.Category.GetAll();
+            return Json(new { data = allObj });
         }
+        #endregion
     }
 }

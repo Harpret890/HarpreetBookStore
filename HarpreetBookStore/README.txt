@@ -214,3 +214,5 @@ updated the UnitofWork in the startup.cs  and added the refernece for it
 added a new controller for category inside the admin folder/ controllers 
 10:34
 added the category content in it  
+10:51
+added the content in the CategoryController
