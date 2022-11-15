@@ -158,3 +158,50 @@ added the migration in the .DataAccess folder for the category class
 11:01
 added all the changes in the ApplicationDbContext of the using statement and added the field for the Categories
 
+2022-11-10
+removed the errors that was poping	related to refences 
+soluton:- added project refernece fr the dataacess and model and it workd 
+
+rebild the application 
+and ran the application 
+
+10:49 
+added the new migration 
+got an error of duplication 
+The name 'AddCategoryToDb' is used by an existing migration
+10:53
+deleted the old migration for AddCategoryToDb and re-did it and it has been updated with the new column of categories and updated the database 
+
+11:12
+added an new folder in the .DataAccess folder name Repository 
+created an new folder in it named IRepository 
+added an new interface type item named IRepository 
+
+added all the required changes in it 
+also added comments 
+
+11:32
+added all the modification in the Repository.cs
+added the individual repos for the category 
+
+1:58
+updated and modified the content for the both the Category Repository 
+
+2:08
+updated the CategoryRepository.cs to implement the insterface 
+
+2:56 
+added an new SP_Call.cs in the IRepository folder and added all the content in it 
+and added the new class in the ISP-Call in the repository folder 
+
+2022-11-14 4:00pm 
+updated all the changed in  the SP_Call file 
+
+4:07PM 
+Added an new interface named IUnitOfWork in the IRepository folder 
+
+4:14PM 
+created a new class named UnitOfWork in the Repository folder and added all the content 
+
+4:19pm 
+made changes in the UnitOfWork 
