@@ -206,3 +206,6 @@ created a new class named UnitOfWork in the Repository folder and added all the 
 4:19pm 
 made changes in the UnitOfWork
 updated the startup.cs 
+
+2022/11/15
+updated the UnitofWork in the startup.cs  and added the refernece for it 
