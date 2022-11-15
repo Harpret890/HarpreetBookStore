@@ -209,3 +209,6 @@ updated the startup.cs
 
 2022/11/15
 updated the UnitofWork in the startup.cs  and added the refernece for it 
+
+10:24 
+added a new controller for category inside the admin folder/ controllers 
