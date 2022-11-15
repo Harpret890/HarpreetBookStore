@@ -204,4 +204,5 @@ Added an new interface named IUnitOfWork in the IRepository folder
 created a new class named UnitOfWork in the Repository folder and added all the content 
 
 4:19pm 
-made changes in the UnitOfWork 
+made changes in the UnitOfWork
+updated the startup.cs 
