@@ -245,3 +245,6 @@ No webpage was found for the web address: http://localhost:55972/Category?area=A
 
 12:47 
 added the new edits for edit and trash button in the layout.cshtml file and upadated the index.cshtml 
+
+12:51 
+added an new file in the wwwroot/ js file named category.js and added all he contenr in it from the provided file 
