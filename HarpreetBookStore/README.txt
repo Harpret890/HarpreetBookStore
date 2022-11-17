@@ -248,3 +248,8 @@ added the new edits for edit and trash button in the layout.cshtml file and upad
 
 12:51 
 added an new file in the wwwroot/ js file named category.js and added all he contenr in it from the provided file 
+
+1:09
+added an additional statement for the Back and Edit to the controllerCategory.cs 
+and added an new upsert.cshtml view in the Views Category and added all ots content from the file provided 
+addded to new view files in the named _CreateAndBackToListButton and _EditAndBackToListButton in the views shared folder 

@@ -1,4 +1,5 @@
 ﻿using HarpreetsBooks.DataAccess.Repository.IRepository;
+using HarpreetsBooks.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -20,9 +21,23 @@ namespace HarpreetBookStore.Areas.Admin.Controllers
         {
             return View();
         }
+        public IActionResult Upsert(int? id)
+        {
+            CategoryController category = new Category();
+            if(id == null){
+                return View(category);
+            }
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+            if(category ==null)
+            {
+                return NotFound();
+            }
+            return View();
+        }
+
 
         //API calls here
-        #region API CALLS
+#region API CALLS
         [HttpGet]
         public IActionResult GetAll()
         {
