@@ -225,3 +225,10 @@ added an new vie inside the category folder named Index.cshtml
 
 11:02
 added all the data inside the Index.cshtml , data was given in the assignment 2 files 
+
+11:20
+The type 'HarpreetsBooks.DataAccess.Repository.UnitOfWork' cannot be used as type parameter 'TImplementation' in the generic 
+type or method 'ServiceCollectionServiceExtensions.AddScoped<TService, TImplementation>(IServiceCollection)'.
+There is no implicit reference conversion from 'HarpreetsBooks.DataAccess.Repository.UnitOfWork' 
+to 'HarpreetsBooks.DataAccess.Repository.IRepository.IUnitOfWork'.	
+HarpreetBookStore	C:\Users\W0802461\Source\Repos\Harpret890\HarpreetBookStore\HarpreetBookStore\Startup.cs	38	Active
