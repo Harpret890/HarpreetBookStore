@@ -240,3 +240,8 @@ added a new link for category in the _Layout.cshtl file
 WORKING ON THE ASSIGNMENT 
 
 added an repository folder refernce in the .DataAccess.csproj folder 
+
+No webpage was found for the web address: http://localhost:55972/Category?area=Admin :- not able to access the webpage 
+
+12:47 
+added the new edits for edit and trash button in the layout.cshtml file and upadated the index.cshtml 
