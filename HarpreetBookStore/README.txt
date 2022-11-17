@@ -253,3 +253,8 @@ added an new file in the wwwroot/ js file named category.js and added all he con
 added an additional statement for the Back and Edit to the controllerCategory.cs 
 and added an new upsert.cshtml view in the Views Category and added all ots content from the file provided 
 addded to new view files in the named _CreateAndBackToListButton and _EditAndBackToListButton in the views shared folder 
+
+1:19 
+modified the upsert file added an @model statement 
+added an asp-action in the index.cshtml 
+changed the title in the in the upsert file and added an @section statement in it 
