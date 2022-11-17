@@ -232,3 +232,6 @@ type or method 'ServiceCollectionServiceExtensions.AddScoped<TService, TImplemen
 There is no implicit reference conversion from 'HarpreetsBooks.DataAccess.Repository.UnitOfWork' 
 to 'HarpreetsBooks.DataAccess.Repository.IRepository.IUnitOfWork'.	
 HarpreetBookStore	C:\Users\W0802461\Source\Repos\Harpret890\HarpreetBookStore\HarpreetBookStore\Startup.cs	38	Active
+
+11:29 
+added a new link for category in the _Layout.cshtl file 
