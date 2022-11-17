@@ -235,3 +235,8 @@ HarpreetBookStore	C:\Users\W0802461\Source\Repos\Harpret890\HarpreetBookStore\Ha
 
 11:29 
 added a new link for category in the _Layout.cshtl file 
+
+12:35 
+WORKING ON THE ASSIGNMENT 
+
+added an repository folder refernce in the .DataAccess.csproj folder 
