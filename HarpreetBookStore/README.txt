@@ -222,3 +222,6 @@ added all the missing statements in the CategoryController,
 In startup.cs added a using statements to clear out the IUnitOfWork error 
 created a new folder in Admin views named Category 
 added an new vie inside the category folder named Index.cshtml
+
+11:02
+added all the data inside the Index.cshtml , data was given in the assignment 2 files 
