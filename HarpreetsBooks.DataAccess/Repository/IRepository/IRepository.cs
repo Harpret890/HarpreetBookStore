@@ -9,7 +9,7 @@ namespace HarpreetsBooks.DataAccess.Repository.IRepository
 {
     public interface IRepository<T> where T : class
     {
-        T Get(int id); // Retrive the data from the category from the database by id 
+        T Get(int id); // Retrive the data from the category from the database by id
         //List of CATEGORIES BASED ON REQUIREMENTS 
         IEnumerable<T> GetAll(
             Expression<Func<T, bool>> filter = null,

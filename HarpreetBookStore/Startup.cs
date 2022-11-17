@@ -1,5 +1,5 @@
 using HarpreetsBooks.DataAccess.Data; // added the reference 
-using HarpreetsBooks.DataAccess.Repository;
+using HarpreetsBooks.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -33,7 +33,7 @@ namespace HarpreetBookStore
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>() //options => options.SignIn.RequireConfirmedAccount = true    removed this 
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddScoped<UnitOfWork, UnitOfWork>(); // added this 
+            services.AddScoped<IUnitOfWork, IUnitOfWork>(); // added this 
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

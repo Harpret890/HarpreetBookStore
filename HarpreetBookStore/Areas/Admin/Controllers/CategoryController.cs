@@ -1,4 +1,4 @@
-﻿using HarpreetsBooks.DataAccess.Repository;
+﻿using HarpreetsBooks.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -10,9 +10,9 @@ namespace HarpreetBookStore.Areas.Admin.Controllers
     [Area("Admin")]
     public class CategoryController : Controller
     {
-        private readonly UnitOfWork _unitOfWork;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public CategoryController(UnitOfWork unitOfWork)
+        public CategoryController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }

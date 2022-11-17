@@ -216,3 +216,9 @@ added a new controller for category inside the admin folder/ controllers
 added the category content in it  
 10:51
 added the content in the CategoryController
+
+2022-11-17  10:30 
+added all the missing statements in the CategoryController,
+In startup.cs added a using statements to clear out the IUnitOfWork error 
+created a new folder in Admin views named Category 
+added an new vie inside the category folder named Index.cshtml
