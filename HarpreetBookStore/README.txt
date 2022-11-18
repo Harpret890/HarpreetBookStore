@@ -262,3 +262,6 @@ changed the title in the in the upsert file and added an @section statement in i
 2022-11-18
 working on the project 
 added new content in the CategoryController and commeneted out save line in the CategoryRepository 
+
+2:33pm 
+ added an HttpDelete method in the contoller.cs 
