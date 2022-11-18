@@ -268,3 +268,4 @@ added new content in the CategoryController and commeneted out save line in the 
 
 2:36 
 to remove the error in the controller.cs added an additional line just to remove errors
+onclick= delete("/Admin/Category/Delete/${data}") added this line to implement the delete method in the category.js 
