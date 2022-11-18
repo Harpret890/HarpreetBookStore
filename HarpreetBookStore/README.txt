@@ -258,3 +258,7 @@ addded to new view files in the named _CreateAndBackToListButton and _EditAndBac
 modified the upsert file added an @model statement 
 added an asp-action in the index.cshtml 
 changed the title in the in the upsert file and added an @section statement in it 
+
+2022-11-18
+working on the project 
+added new content in the CategoryController and commeneted out save line in the CategoryRepository 
