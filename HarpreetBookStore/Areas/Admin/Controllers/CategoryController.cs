@@ -78,6 +78,11 @@ namespace HarpreetBookStore.Areas.Admin.Controllers
             return Json(new { success = true, message = "Delete successful" });
         }
 
-    #endregion
+        public static implicit operator CategoryController(Category v)          // added these just to remove errors in the new Category line 26 
+        {
+            throw new NotImplementedException();
+        }
+
+        #endregion
     }
 }

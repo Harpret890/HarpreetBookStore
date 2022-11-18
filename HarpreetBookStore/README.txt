@@ -265,3 +265,6 @@ added new content in the CategoryController and commeneted out save line in the 
 
 2:33pm 
  added an HttpDelete method in the contoller.cs 
+
+2:36 
+to remove the error in the controller.cs added an additional line just to remove errors
