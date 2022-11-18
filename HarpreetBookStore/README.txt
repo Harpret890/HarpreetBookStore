@@ -272,3 +272,6 @@ onclick= delete("/Admin/Category/Delete/${data}") added this line to implement t
 
 2:52
 added the delete function in the Category.js for all the alert function 
+
+3:13 
+added new details in the upsert.cshtml 
