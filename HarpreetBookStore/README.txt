@@ -279,3 +279,7 @@ added new details in the upsert.cshtml
 7:18pm 
 finally cleared up the startup error 
 just had to add an : IUnitOfWork in the UnitOfWork file . 
+
+7:39pm 
+added an new route in the startup.cs in the for dding the admin category 
+also moved the home file o the original location 
