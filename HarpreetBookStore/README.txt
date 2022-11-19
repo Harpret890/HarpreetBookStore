@@ -275,3 +275,7 @@ added the delete function in the Category.js for all the alert function
 
 3:13 
 added new details in the upsert.cshtml 
+
+7:18pm 
+finally cleared up the startup error 
+just had to add an : IUnitOfWork in the UnitOfWork file . 

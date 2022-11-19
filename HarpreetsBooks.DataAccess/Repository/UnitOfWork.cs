@@ -6,7 +6,7 @@ using HarpreetsBooks.DataAccess.Data;
 
 namespace HarpreetsBooks.DataAccess.Repository
 {
-    public class UnitOfWork                 /// ADDED ALL THE CONTENT 
+    public class UnitOfWork : IUnitOfWork                /// ADDED ALL THE CONTENT 
     {
         private readonly ApplicationDbContext _db;
 

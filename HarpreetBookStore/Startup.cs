@@ -34,7 +34,7 @@ namespace HarpreetBookStore
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>() //options => options.SignIn.RequireConfirmedAccount = true    removed this 
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddScoped<UnitOfWork, UnitOfWork>(); // added this // dupd the iuow to res
+            services.AddScoped<IUnitOfWork, UnitOfWork>(); // added this // dupd the iuow to res
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
