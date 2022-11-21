@@ -318,3 +318,7 @@ added new inn=terface in  the IRepository folder named ICoverType and
 added a new class in the Repository folder named CoverType.cs
 updated few contents ion all the files using the category file . 
 added the new CoverType and ICoverType in the IUnitOfWork and UnitOfWork files 
+
+6:36 
+Added an migration named AddCoverTypeToDb in the dataaccess folder 
+and added the CoverType to the applicationdbContext and reapplied the migration for all the updates 
