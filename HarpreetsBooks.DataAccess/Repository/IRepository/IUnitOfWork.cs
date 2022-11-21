@@ -4,9 +4,10 @@ using System.Text;
 
 namespace HarpreetsBooks.DataAccess.Repository.IRepository
 {
-    public interface IUnitOfWork : IDisposable
+    public interface IUnitOfWork : IDisposable 
     {
         ICategoryRepository Category { get; }
+        ICoverTypeRepository CoverType { get; set; }
         ISP_Call SP_Call { get; }
 
         void Save();

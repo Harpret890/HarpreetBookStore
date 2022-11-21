@@ -13,6 +13,6 @@ namespace HarpreetsBooks.Models
         [Display(Name = "CoverType Name")]
         [Required]
         [MaxLength(50)]
-        public string name { get; set; }
+        public string Name { get; set; }
     }
 }
