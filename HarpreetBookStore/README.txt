@@ -1,4 +1,4 @@
-﻿10;42 2022-10-25
+﻿  10;42 2022-10-25
 CREATED A NEW WEBAPPLICTION MVC core .
 set to indvidual accounts
 https config enabled the runtime for razor . 
@@ -284,6 +284,7 @@ just had to add an : IUnitOfWork in the UnitOfWork file .
 added an new route in the startup.cs in the for dding the admin category 
 also moved the home file o the original location 
 
+2022-11-21  
 12:37pm
 working on the assignment 
 
@@ -291,3 +292,19 @@ working on the assignment
 
  updated the _layout.cshtml file , it has an extra render action line  which brke the code and corrected the original file for the _ViewStart.cshtml file 
  had an wrong layout connected 
+
+3:19 pm 
+rebuild the application 
+application is running but some how their is an error popping out and not sure whats it 
+
+Microsoft.Data.SqlClient.SqlException: 'Cannot open database "HarpreetBookStore" requested by the login. The login failed.
+Login failed for user 'ACAD\W0802461'.'
+
+This exception was originally thrown at this call stack:
+    [External Code]
+    HarpreetsBooks.DataAccess.Repository.Repository<T>.GetAll(System.Linq.Expressions.Expression<System.Func<T, bool>>, System.Func<System.Linq.IQueryable<T>, System.Linq.IOrderedQueryable<T>>, string) in Repository.cs
+    HarpreetBookStore.Areas.Admin.Controllers.CategoryController.GetAll() in CategoryController.cs
+    [External Code]
+
+4:19
+Finally everything is working an correected all the errors 
