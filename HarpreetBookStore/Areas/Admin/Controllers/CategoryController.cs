@@ -23,7 +23,7 @@ namespace HarpreetBookStore.Areas.Admin.Controllers
         }
         public IActionResult Upsert(int? id)
         {
-            CategoryController category = new Category();
+            Category category = new Category();
             if(id == null){
                 return View(category);
             }

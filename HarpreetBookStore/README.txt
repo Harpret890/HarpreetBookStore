@@ -283,3 +283,11 @@ just had to add an : IUnitOfWork in the UnitOfWork file .
 7:39pm 
 added an new route in the startup.cs in the for dding the admin category 
 also moved the home file o the original location 
+
+12:37pm
+working on the assignment 
+
+ @RenderSection("Scripts", required: false)  (getting an error )
+
+ updated the _layout.cshtml file , it has an extra render action line  which brke the code and corrected the original file for the _ViewStart.cshtml file 
+ had an wrong layout connected 
