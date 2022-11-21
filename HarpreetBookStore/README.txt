@@ -308,3 +308,7 @@ This exception was originally thrown at this call stack:
 
 4:19
 Finally everything is working an correected all the errors 
+
+5:45
+added all the details similar to category.cs file  
+created an new class file named CoverType in the Modals folder 
