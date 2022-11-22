@@ -345,3 +345,6 @@ added the migration and updated the database
 Updated the product.cs file in the .models folder with Required for title author and ISBN 
 created a new migration for it with the name addValidationToProduct
 20221122162153_addValidationToProduct   added the migration for the products validation 
+
+11:38
+added two new IProductRepository and ProductRepository interface and class and updated the unitOfWEork and IUnitOfWork 

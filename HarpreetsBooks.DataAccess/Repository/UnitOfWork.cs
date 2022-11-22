@@ -19,6 +19,7 @@ namespace HarpreetsBooks.DataAccess.Repository
         }
         public ICategoryRepository Category { get; private set; }
         public ICoverTypeRepository CoverType { get; set; }
+        public IProductRepository Product { get; set; }
         public ISP_Call SP_Call { get; private set; }
 
 
