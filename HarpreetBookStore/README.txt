@@ -322,3 +322,9 @@ added the new CoverType and ICoverType in the IUnitOfWork and UnitOfWork files
 6:36 
 Added an migration named AddCoverTypeToDb in the dataaccess folder 
 and added the CoverType to the applicationdbContext and reapplied the migration for all the updates 
+
+7:08 pm 
+Added an new CoverType folder in the Admin Views folders which includes all the Index and the upsert files . 
+added the nav bar for the coverType menu and added a  new controller file in the Admin folder 
+
+having error in this file which is not able to run the page in the browser 

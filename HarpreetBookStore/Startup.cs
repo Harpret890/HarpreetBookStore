@@ -73,6 +73,12 @@ namespace HarpreetBookStore
                 areaName: "Admin",
                 pattern: "{area=Admin}/{controller=Home}/{action=Index}/{id?}"
                     );
+
+                 /*endpoints.MapAreaControllerRoute(
+                name: "Area",
+                areaName: "CoverType",
+                pattern: "{area=CoverType}/{controller=Home}/{action=Index}/{id?}"
+                    );*/
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}"); // modified the pattern with the {area=Customer}
