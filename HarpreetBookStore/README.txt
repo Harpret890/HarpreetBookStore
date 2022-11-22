@@ -337,3 +337,11 @@ added : controller near the public statement to get rid of errors
 addd a new class in the .Models folder 
 added its reference to the applicationDbContext
 added the migration and updated the database 
+
+20221122160355_addProductToDb the migration name for the addProductToDb
+
+11:22
+
+Updated the product.cs file in the .models folder with Required for title author and ISBN 
+created a new migration for it with the name addValidationToProduct
+20221122162153_addValidationToProduct   added the migration for the products validation 
