@@ -332,3 +332,8 @@ having error in this file which is not able to run the page in the browser
 2022-11-22
 Added an new js file in the wwwroots flder named coverType.js and updates small errors in the Index and upsert files for both covertype and category 
 added : controller near the public statement to get rid of errors 
+
+11:04
+addd a new class in the .Models folder 
+added its reference to the applicationDbContext
+added the migration and updated the database 

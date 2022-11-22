@@ -14,6 +14,7 @@ namespace HarpreetsBooks.DataAccess.Data       // modified the name space
         {
         }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<CoverType> coverTypes { get; set; }
+        public DbSet<CoverType> coverTypes { get; set; }        // added reference for CoverType
+        public DbSet<Product> Products { get; set; }        // added refernece for Products 
     }
 }
