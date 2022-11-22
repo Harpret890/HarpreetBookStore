@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace HarpreetBookStore.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class CoverTypeController
+    public class CoverTypeController :  Controller
     {
         private readonly IUnitOfWork _unitOfWork;
 
@@ -44,7 +44,7 @@ namespace HarpreetBookStore.Areas.Admin.Controllers
         {
             if (coverType.Id == 0)
             {
-                _unitOfWork.coverType.Add(coverType);
+                _unitOfWork.CoverType.Add(coverType);
                 _unitOfWork.Save();
             }
             else
