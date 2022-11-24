@@ -348,3 +348,7 @@ created a new migration for it with the name addValidationToProduct
 
 11:38
 added two new IProductRepository and ProductRepository interface and class and updated the unitOfWEork and IUnitOfWork 
+
+
+2022-11-24
+added a new product controllers in the products added its view files 
