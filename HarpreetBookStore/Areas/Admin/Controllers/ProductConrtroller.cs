@@ -6,7 +6,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
-
+using HarpreetsBooks.Models.ViewModels;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace HarpreetBookStore.Areas.Admin.Controllers
 {
@@ -27,17 +28,32 @@ namespace HarpreetBookStore.Areas.Admin.Controllers
         }
         public IActionResult Upsert(int? id)
         {
-            Product product = new Product();
+            ProductVM productVM = new ProductVM()
+            {
+                CategoryList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
+
+                CoverTypeList = _unitOfWork.CoverType.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
+
+            };
+           // Product product = new Product();
             if (id == null)
             {
-                return View(product);
+                return View(productVM);
             }
-            product = _unitOfWork.Product.Get(id.GetValueOrDefault());
-            if (product == null)
+            productVM.Product = _unitOfWork.Product.Get(id.GetValueOrDefault());
+            if (productVM == null)
             {
                 return NotFound();
             }
-            return View(product);
+            return View(productVM);
         }
 
         //use HttpPost to define the post-action method 

@@ -360,3 +360,6 @@ updatd the unitofwork
 added an new viewModel file in the models folder named ProductVM 
 updated the productController with the webHostig 
 annd downloaded  the microsoft view feature pakage 
+
+10:12
+updated the productController with the ProductVM and added the content in the ProductVm file under the view models section 
