@@ -355,3 +355,8 @@ added a new product controllers in the products added its view files
 
 09:47
 updatd the unitofwork
+
+10:05
+added an new viewModel file in the models folder named ProductVM 
+updated the productController with the webHostig 
+annd downloaded  the microsoft view feature pakage 
