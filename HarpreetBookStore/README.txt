@@ -352,3 +352,6 @@ added two new IProductRepository and ProductRepository interface and class and u
 
 2022-11-24
 added a new product controllers in the products added its view files 
+
+09:47
+updatd the unitofwork
