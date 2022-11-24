@@ -363,3 +363,7 @@ annd downloaded  the microsoft view feature pakage
 
 10:12
 updated the productController with the ProductVM and added the content in the ProductVm file under the view models section 
+
+10:17
+updated the productcontroller with the Category and CoverType 
+and updated the datavalues in the product.js 

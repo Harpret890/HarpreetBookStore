@@ -89,12 +89,12 @@ namespace HarpreetBookStore.Areas.Admin.Controllers
         [HttpDelete]                // added an HttpDelete 
         public IActionResult Delete(int id)
         {
-            var objFromDb = _unitOfWork.Product.Get(id);
+            var objFromDb = _unitOfWork.Product.GetAll(includeProperties:"Category, CoverType");
             if (objFromDb == null)
             {
                 return Json(new { success = false, message = "Error while deleting" });
             }
-            _unitOfWork.Product.Remove(objFromDb);
+            _unitOfWork.Product.Remove((Product)objFromDb);
             _unitOfWork.Save();
             return Json(new { success = true, message = "Delete successful" });
         }
