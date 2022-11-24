@@ -367,3 +367,6 @@ updated the productController with the ProductVM and added the content in the Pr
 10:17
 updated the productcontroller with the Category and CoverType 
 and updated the datavalues in the product.js 
+
+10:21
+change sthe width settingd for table values for the product 
