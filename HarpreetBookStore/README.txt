@@ -1,4 +1,4 @@
-﻿10;42 2022-10-25
+﻿  10;42 2022-10-25
 CREATED A NEW WEBAPPLICTION MVC core .
 set to indvidual accounts
 https config enabled the runtime for razor . 
@@ -282,5 +282,4 @@ just had to add an : IUnitOfWork in the UnitOfWork file .
 
 7:39pm 
 added an new route in the startup.cs in the for dding the admin category 
-also moved the home file o the original location  
-
+also moved the home file o the original location 
