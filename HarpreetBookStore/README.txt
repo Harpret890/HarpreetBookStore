@@ -289,3 +289,9 @@ also moved the home file o the original location
 assignmnet from part 3 first part all got deleted so had to do it again . 
 made small chngaes in the Category controllers to get rid of all the errors
 made a new class in the .Models file named CoverType.cs and made similar chnages to category class 
+
+6:15pm 
+added ICoverTypeRepository and CoverType Repository class and interface in the Corresponding folders 
+added the coverType to the unitOfWork and IUnitOfWork 
+and added the migration 
+and upadted the database
