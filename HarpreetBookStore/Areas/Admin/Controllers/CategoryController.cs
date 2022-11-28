@@ -23,7 +23,7 @@ namespace HarpreetBookStore.Areas.Admin.Controllers
         }
         public IActionResult Upsert(int? id)
         {
-            CategoryController category = new Category();
+            Category category = new Category();
             if(id == null){
                 return View(category);
             }
@@ -78,10 +78,10 @@ namespace HarpreetBookStore.Areas.Admin.Controllers
             return Json(new { success = true, message = "Delete successful" });
         }
 
-        public static implicit operator CategoryController(Category v)          // added these just to remove errors in the new Category line 26 
+        /*public static implicit operator CategoryController(Category v)          // added these just to remove errors in the new Category line 26 
         {
             throw new NotImplementedException();
-        }
+        }*/
 
         #endregion
     }

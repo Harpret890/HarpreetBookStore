@@ -284,3 +284,8 @@ just had to add an : IUnitOfWork in the UnitOfWork file .
 added an new route in the startup.cs in the for dding the admin category 
 also moved the home file o the original location 
 
+2022-11-28   5:54pm
+
+assignmnet from part 3 first part all got deleted so had to do it again . 
+made small chngaes in the Category controllers to get rid of all the errors
+made a new class in the .Models file named CoverType.cs and made similar chnages to category class 
