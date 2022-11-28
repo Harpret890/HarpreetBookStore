@@ -301,3 +301,13 @@ added a new covertype in the nav bar
 added the new controller for covertype and added the index and view pages 
 added the java script file
 and created a new class for the product 
+
+20221128233904_addProductToDb.cs 
+timestamp for product 
+
+6:41 pm 
+added the product to the applicationdbcontect 
+added migration and updated  the older migration 
+
+updated the product.cs file with the Required statements 
+addded an validation migration for it 
