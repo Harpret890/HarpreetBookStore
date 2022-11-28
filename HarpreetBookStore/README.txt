@@ -295,3 +295,9 @@ added ICoverTypeRepository and CoverType Repository class and interface in the C
 added the coverType to the unitOfWork and IUnitOfWork 
 and added the migration 
 and upadted the database
+
+6:36
+added a new covertype in the nav bar
+added the new controller for covertype and added the index and view pages 
+added the java script file
+and created a new class for the product 
