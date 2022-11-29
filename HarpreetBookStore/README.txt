@@ -311,3 +311,8 @@ added migration and updated  the older migration
 
 updated the product.cs file with the Required statements 
 addded an validation migration for it 
+
+7:12 pm
+added a index and upsert files for the product , added the product.js file 
+registered it in the unitofwork and iunitofwork 
+added the webhostig in the product controller class file . 
