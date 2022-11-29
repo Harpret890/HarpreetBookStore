@@ -7,7 +7,7 @@ namespace HarpreetsBooks.Models.ViewModels
 {
     public class ProductVM
     {
-        public Product Produt { get; set; }
+        public Product Product { get; set; }
         public IEnumerable<SelectListItem> CategoryList { get; set; }
         public IEnumerable<SelectListItem> CoverTypeList { get; set; }
     }

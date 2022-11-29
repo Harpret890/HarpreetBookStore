@@ -6,7 +6,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
-
+using HarpreetsBooks.Models.ViewModels;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace HarpreetBookStore.Areas.Admin.Controllers
 {
@@ -27,20 +28,34 @@ namespace HarpreetBookStore.Areas.Admin.Controllers
         }
         public IActionResult Upsert(int? id)
         {
-            Product product = new Product();
+            ProductVM productVM = new ProductVM()
+            {
+                Product = new Product(),
+                CategoryList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
+                CoverTypeList = _unitOfWork.CoverType.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
+            };
+            //Product product = new Product();
             if (id == null)
             {
-                return View(product);
+                return View(productVM);
             }
-            product = _unitOfWork.Product.Get(id.GetValueOrDefault());
-            if (product == null)
+            productVM.Product = _unitOfWork.Product.Get(id.GetValueOrDefault());
+            if (productVM == null)
             {
                 return NotFound();
             }
-            return View(product);
+            return View(productVM);
         }
 
-        //use HttpPost to define the post-action method 
+        /*//use HttpPost to define the post-action method 
         [HttpPost]
         [ValidateAntiForgeryToken]
 
@@ -57,7 +72,7 @@ namespace HarpreetBookStore.Areas.Admin.Controllers
             }
             _unitOfWork.Save();
             return RedirectToAction(nameof(Index));   // to see all the categories
-        }
+        }*/
 
 
         //API calls here
@@ -65,7 +80,7 @@ namespace HarpreetBookStore.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var allObj = _unitOfWork.Product.GetAll();
+            var allObj = _unitOfWork.Product.GetAll(includeProperties:"Category, CoverType");
             return Json(new { data = allObj });
         }
 
