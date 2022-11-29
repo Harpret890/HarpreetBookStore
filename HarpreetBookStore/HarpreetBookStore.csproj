@@ -29,6 +29,7 @@
 
   <ItemGroup>
     <Folder Include="Controllers_bk\" />
+    <Folder Include="wwwroot\images\products\" />
   </ItemGroup>
 
 </Project>

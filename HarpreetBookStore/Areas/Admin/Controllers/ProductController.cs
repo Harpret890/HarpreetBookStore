@@ -55,7 +55,7 @@ namespace HarpreetBookStore.Areas.Admin.Controllers
             return View(productVM);
         }
 
-        /*//use HttpPost to define the post-action method 
+        //use HttpPost to define the post-action method 
         [HttpPost]
         [ValidateAntiForgeryToken]
 
@@ -72,7 +72,7 @@ namespace HarpreetBookStore.Areas.Admin.Controllers
             }
             _unitOfWork.Save();
             return RedirectToAction(nameof(Index));   // to see all the categories
-        }*/
+        }
 
 
         //API calls here
@@ -80,7 +80,7 @@ namespace HarpreetBookStore.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var allObj = _unitOfWork.Product.GetAll(includeProperties:"Category, CoverType");
+            var allObj = _unitOfWork.Product.GetAll(includeProperties:"Category,CoverType");
             return Json(new { data = allObj });
         }
 

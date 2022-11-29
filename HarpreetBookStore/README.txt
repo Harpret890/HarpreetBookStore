@@ -325,3 +325,8 @@ updated the productController with the new productvm model file
 
 7:33pm 
 added the additional values in the poduct.js file and updated the product upsert.cs woth the given file 
+
+2022-11-29  10:47
+added the new alert featurns in the upsert.cshtml for the products 
+and made small changes in the productController.cs , Uncommented the Http Post method 
+and removed the space winit the api calls 
