@@ -333,3 +333,8 @@ and removed the space winit the api calls
 
 11:31
 updated file to remiove errors 
+
+11:36
+updated the styles on the product.js and corrected erros in it 
+\added an <th></th>
+for resulting all the values that wasnt seen
