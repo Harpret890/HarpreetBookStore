@@ -11,9 +11,9 @@ function loadDataTable() {
             "url": "/Admin/Product/GetAll"
         },
         "columns": [
-            { "data": "title", "width": "15%" },
+            { "data": "title", "width": "60%" },
             { "data": "isbn", "width": "15%" },
-            { "data": "price", "width": "15%" },
+            { "data": "listPrice", "width": "15%" },
             { "data": "author", "width": "15%" },
             { "data": "category.Name", "width": "15%" },
             {

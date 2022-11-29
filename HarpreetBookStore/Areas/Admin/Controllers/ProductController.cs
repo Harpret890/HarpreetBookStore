@@ -61,18 +61,22 @@ namespace HarpreetBookStore.Areas.Admin.Controllers
 
         public IActionResult Upsert(Product product)
         {
-            if (product.Id == 0)
+            if (ModelState.IsValid)
             {
-                _unitOfWork.Product.Add(product);
-                _unitOfWork.Save();
-            }
-            else
-            {
-                _unitOfWork.Product.Update(product);
-            }
+                if (product.Id == 0)
+                {
+                    _unitOfWork.Product.Add(product);
+                    _unitOfWork.Save();
+                }
+                else
+                {
+                    _unitOfWork.Product.Update(product);
+                }
             _unitOfWork.Save();
             return RedirectToAction(nameof(Index));   // to see all the categories
         }
+        return View(product);
+    }
 
 
         //API calls here

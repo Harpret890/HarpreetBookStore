@@ -330,3 +330,6 @@ added the additional values in the poduct.js file and updated the product upsert
 added the new alert featurns in the upsert.cshtml for the products 
 and made small changes in the productController.cs , Uncommented the Http Post method 
 and removed the space winit the api calls 
+
+11:31
+updated file to remiove errors 
