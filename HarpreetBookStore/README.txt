@@ -316,3 +316,6 @@ addded an validation migration for it
 added a index and upsert files for the product , added the product.js file 
 registered it in the unitofwork and iunitofwork 
 added the webhostig in the product controller class file . 
+
+7:18
+added a new view model file and created added the new pakage for it Microsoft.AspNetCore.Mvc.Rendering; 
