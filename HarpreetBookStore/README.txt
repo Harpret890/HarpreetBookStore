@@ -322,3 +322,6 @@ added a new view model file and created added the new pakage for it Microsoft.As
 
 7:26pm 
 updated the productController with the new productvm model file 
+
+7:33pm 
+added the additional values in the poduct.js file and updated the product upsert.cs woth the given file 
