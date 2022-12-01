@@ -338,3 +338,13 @@ updated file to remiove errors
 updated the styles on the product.js and corrected erros in it 
 \added an <th></th>
 for resulting all the values that wasnt seen
+
+2022-11-30
+starting assignment part 4 
+rebuild the applictaion 
+
+9:18pm 
+added new content for the homecontroller.cs for bringing the items of the product in th home page . 
+
+9:24pm
+added new data in indexc.cshtml 

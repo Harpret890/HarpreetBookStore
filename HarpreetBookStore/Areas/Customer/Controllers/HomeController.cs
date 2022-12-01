@@ -6,6 +6,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using HarpreetsBooks.Models;
+using HarpreetsBooks.DataAccess.Repository.IRepository;
 
 namespace HarpreetBookStore.Area.Customer.Controllers // changed the namespace Area.Customer
 {
@@ -13,15 +15,18 @@ namespace HarpreetBookStore.Area.Customer.Controllers // changed the namespace A
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IUnitOfWork _unifOfWork;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IUnitOfWork unifOfWork)
         {
             _logger = logger;
+            _unifOfWork = unifOfWork;
         }
 
         public IActionResult Index() // added break points for debugging 
         {
-            return View();
+            IEnumerable<Product> productList = _unifOfWork.Product.GetAll(includeProperties: "Category,CoverType");
+            return View(productList);
         }
 
         public IActionResult Privacy() //added break points for debugging 
