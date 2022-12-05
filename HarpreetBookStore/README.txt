@@ -348,3 +348,5 @@ added new content for the homecontroller.cs for bringing the items of the produc
 
 9:24pm
 added new data in indexc.cshtml 
+
+update the indexm page to work the desxcription 
