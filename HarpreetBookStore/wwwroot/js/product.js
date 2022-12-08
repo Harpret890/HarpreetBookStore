@@ -17,7 +17,14 @@ function loadDataTable() {
             { "data": "author", "width": "15%" },
             { "data": "category.name", "width": "15%" },
             {
-                "data": "Id",
+                "data": "imageUrl", "width": "15%", "render": function (data) {
+
+                    return `<img src="${data}" >
+                        `
+                }
+            },
+            {
+                "data": "id",
                 "render": function (data) {
                     return `
                             <div class="text-center">

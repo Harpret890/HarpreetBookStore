@@ -350,3 +350,11 @@ added new content for the homecontroller.cs for bringing the items of the produc
 added new data in indexc.cshtml 
 
 update the indexm page to work the desxcription 
+
+2022-08-12
+11:15am 
+made changes in the upsert for product , added the new imageUrl for rendering the image 
+same for the product.js 
+working on the image 
+image is not working in the browser 
+the images is not going to its right directory 
